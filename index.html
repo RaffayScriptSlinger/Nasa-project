@@ -1,37 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Nasa project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav class="navbarcontainer">
-        <div class="portionone">
-            <span>
-                EXPLORE
-                <img src="download.png" alt="" class="arrow">
-            </span>
-           
-            <span id="inputcontainer">
-                <label for="search"></label>
-                <input type="search" placeholder="search" name="search" id="search">
-            </span>
-        </div>
-        <div class="portiontwo">
-            <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" class="nasa-logo" alt="">
-        </div>
-        <div class="portionthree">
-            <span>
-                News$Events  <img src="download.png" class="arrow" alt="">
-               
-            </span>
-            <span>Multimedia</span>
-            <span>Nasa+</span>
-            <span class="btn"><button>live</button</span>
-        </div>
 
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstarp.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-success" type="submit">Explore</button>
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      </form>
+      <!-- <a class=" navbar-brand mx-auto  " href="#"> <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg"   alt=""></a> -->
+      <div class="mx-auto">
+        <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+      </div>
+
+
+      <div class="collapse navbar-collapse ms-auto " id="navbarScroll">
+        <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll ms-auto " style="--bs-scroll-height: 100px;">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              NEWS&EVENTS
+            </a>
+            <ul class="dropdown-menu  ">
+              <li><a class="dropdown-item" href="#">All Nasa News</a></li>
+              <li><a class="dropdown-item" href="#">Vedio Series on Nasa+</a></li>
+              <li><a class="dropdown-item" href="#">Podcast</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MULTIMEDIA
+            </a>
+            <ul class="dropdown-menu  ">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item  ">
+            <a class="nav-link disabled" aria-disabled="true">NASA+ <button class="btnlive">live</button></a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </div>
+  </nav>
+  <div>
+    <div class="firstimage">
+      <img src="https://www.nasa.gov/wp-content/uploads/2024/01/bdaa15be-b57a-422c-a2f3-709db0f7858b.jpeg" alt="">
+    </div>
+    <div class="text">
+      <h1>
+      INOVATION FOR ALL
+      <BR>
+      KNOWLEGE FOR ALL
+    </h1>
+      <p>
+        NASA's PACE mission is targeted for launch at 1:33 a.m. EST, Tuesday, Feb. 6. Once in orbit above Earth, PACE will shed light on the impact of tiny things—microscopic life in water and microscopic particles in the air.
+      </p>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
