@@ -1,13 +1,5 @@
-.nav-item .btnlive{
-    background-color: black ;
-    text-align: center;
-    align-items: center;
-    border: 1px solid #f64137;
-    color: white;
-
-}
-.nav-item .btnlive:hover{
-    background-color: rgb(156, 98, 98) ;
+.nav-item .btnlive {
+    background-color: black;
     text-align: center;
     align-items: center;
     border: 1px solid #f64137;
@@ -15,58 +7,292 @@
 
 }
 
-.navbar{
+.nav-item .btnlive:hover {
+    background-color: rgb(156, 98, 98);
+    text-align: center;
+    align-items: center;
+    border: 1px solid #f64137;
+    color: white;
+
+}
+
+.navbar {
     background-color: black !important;
     margin: 0% !important;
     padding: 0% !important;
     width: 100% !important;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: black !important;
     color: white;
     margin: 0% !important;
     padding: 0% !important;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     background-color: black !important;
 }
-.navbar-toggler-icon{
-    
+
+.navbar-toggler-icon {
+
     background-color: rgb(153, 123, 128) !important;
 }
-.firstimage img{
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 100vh;
-   width: 100%;
-   opacity: 0.4;
+
+
+.firstimage img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105%;
+    width: 100%;
+    opacity: 0.4;
 }
-.firstimage{
+
+.firstimage {
     position: relative;
     background-color: black;
+
 }
- .text {
+
+.text {
     position: absolute;
     left: 23px;
-    top: 210px;
+    top: 610px;
     color: white;
-    width:  470px;
+    flex-direction: column-reverse;
+   
+}
 
- }
-    
-.text h1{
-    font-size: 55px;
+.text h1 {
+    font-size: 45px;
     font-weight: bolder;
-    flex-wrap: wrap;
+
 }
-.text p{
-    flex-wrap: wrap;
+
+.text p {
+    font-size: 20px;
+
+}
+
+.logo2 {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
 }
 
 
-@media only screen and (max-width:550px){
-    .form-control,.btn{
+.secounditem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.secounditem h1 {
+    font-size: 46px;
+    color: firebrick;
+}
+
+.update {
+    font-weight: bolder;
+    font-size: 24px;
+    font-style: italic;
+
+
+}
+
+.text button {
+    background-color: #f64137;
+    color: white;
+    width: 118px;
+    height: 46px;
+    margin-left: 20%;
+    border-radius: 22px;
+
+}
+
+.bottomimg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+    text-align: center;
+}
+
+.bottomimg .fontone {
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.picture {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+
+.fontone {
+    border-top: 1px solid white;
+}
+
+.fontone p {
+    font-size: medium;
+}
+/* 
+.bottomimg {
+    margin-top: 210px;
+} */
+
+
+.secoundcontainer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.container main{
+    height: 400px;
+    background-color: green;
+    margin-top: 10px;
+    width: auto;
+    
+}
+.row{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.two{
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: red;
+ 
+}
+.two img{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.three{
+    height: 200px;
+    margin-bottom: 10px;
+    background-color:yellow;
+}
+.three img{
+    height: 100%;
+    width: 100%;
+}
+.four{
+    height: 200px;
+    margin-bottom: 10px;
+    background-color:rgb(0, 102, 255);
+}
+.four img{
+    height: 100%;
+    width: 100%;
+}
+.five{
+    height: 90px;
+    margin-bottom: 10px;
+    background-color:rgb(136, 255, 0);
+}
+.five img{
+    height: 100%;
+    width: 100%;
+}
+.six{
+    height: 90px;
+    margin-bottom: 10px;
+    background-color:pink;
+}
+.six img{
+    height: 100%;
+    width: 100%;
+}
+.thirdcontainer{
+    width: 80%;
+}
+
+@media only screen and (max-width:500px) {
+
+    .form-control,
+    .btn {
         display: none !important;
     }
-  
-}
+
+    .update {
+        text-align: center;
+    }
+
+    .secounditem {
+        text-align: center;
+    }
+
+    .text {
+        margin: 0%;
+        padding: 0%;
+        top: 580px;
+       
+    }
+    .textcontainer{
+        background-image: url(https://www.nasa.gov/wp-content/uploads/2024/02/gsfc-20231117-pace-033659-2000w.jpg?resize=1536,1024);
+
+    }
+
+    .text h1 {
+        font-size: 22px;
+    }
+
+
+    .firstimage img {
+        height: 130vh;
+        background-size: cover;
+    }
+
+    .logo2 {
+        border: 2px solid yellow;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .text button {
+        width: 100%;
+        margin: 0%;
+        font-size: 23px;
+        font-weight: bolder;
+
+
+    }
+    
+    .bottomimg {
+        flex-direction: column;
+        flex-wrap: wrap;
+   
+    }
+    .bottomimg .fontone {
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+
+   
+        
+    .two,.three,.four,.five,.six{
+        width:auto;
+    }
+    .bottomimg .picture{
+        text-align: center;
+        height: 50px;
+        width: 50px;
+    }
+    
+
+    }
+
+    
