@@ -61,6 +61,8 @@
     color: white;
     flex-direction: column-reverse;
    
+   
+   
 }
 
 .text h1 {
@@ -151,15 +153,19 @@
     height: 100px;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
 }
 
-.container main{
+/* .container main{
     height: 400px;
     background-color: green;
     margin-top: 10px;
     width: auto;
     
+} */
+.thirdcontainer{
+    height: auto;
+    width: 90%;
 }
 .row{
     margin-left: 30%;
@@ -167,9 +173,10 @@
 
 }
 .two{
-    height: 200px;
+    height: 370px;
     margin-bottom: 10px;
-    background-color: red;
+    /* background-color: red; */
+    background-size: cover;
  
 }
 .two img{
@@ -179,43 +186,80 @@
     width: 100%;
 }
 .three{
-    height: 200px;
+    height: 370px;
     margin-bottom: 10px;
-    background-color:yellow;
+    /* background-color:yellow; */
+    background-size: cover;
 }
 .three img{
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 .four{
-    height: 200px;
+    height: 400px;
     margin-bottom: 10px;
-    background-color:rgb(0, 102, 255);
+    /* background-color:rgb(0, 102, 255); */
 }
 .four img{
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 .five{
-    height: 90px;
+    height: 180px;
     margin-bottom: 10px;
-    background-color:rgb(136, 255, 0);
+    /* background-color:rgb(136, 255, 0); */
 }
 .five img{
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
 .six{
-    height: 90px;
+    height: 180px;
     margin-bottom: 10px;
-    background-color:pink;
+    /* background-color:pink; */
 }
 .six img{
     height: 100%;
     width: 100%;
+    background-size: cover;
 }
-.thirdcontainer{
-    width: 80%;
+.forthcontainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid red;
+    margin-top: 0%;
+   
+ 
+}
+.firstcontainer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.first img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.secound img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.third img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fourth img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 
 @media only screen and (max-width:500px) {
@@ -238,11 +282,10 @@
         padding: 0%;
         top: 580px;
        
-    }
-    .textcontainer{
-        background-image: url(https://www.nasa.gov/wp-content/uploads/2024/02/gsfc-20231117-pace-033659-2000w.jpg?resize=1536,1024);
 
+       
     }
+    
 
     .text h1 {
         font-size: 22px;
@@ -291,7 +334,15 @@
         height: 50px;
         width: 50px;
     }
-    
+    .firstcontainer{
+        flex-direction: column;
+        flex-wrap: wrap;
+      
+    }
+    .fourthcontainer{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    }
 
     }
 
