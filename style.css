@@ -54,20 +54,27 @@
 
 }
 
+.textcontainer {
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/02/53510769734-8b85c25411-k.jpg?resize=1536,1024);
+    background-size: cover;
+}
+
 .text {
-    position: absolute;
-    left: 23px;
-    top: 610px;
-    color: white;
+    position: static;
+    /* background-image: url(nasabackground.webp); */
+    color: rgb(255, 255, 255);
     flex-direction: column-reverse;
-   
-   
-   
+    padding: 50px;
+    
+
+
+
 }
 
 .text h1 {
-    font-size: 45px;
+    font-size: 75px;
     font-weight: bolder;
+    margin-top: 45px;
 
 }
 
@@ -106,23 +113,27 @@
 .text button {
     background-color: #f64137;
     color: white;
-    width: 118px;
+    width:300px;
     height: 46px;
-    margin-left: 20%;
-    border-radius: 22px;
-
+    border-radius: 5px;
 }
 
 .bottomimg {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 200px;
+    text-align: center;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
     display: flex;
     justify-content: space-between;
-    margin-top: 33px;
-    text-align: center;
+
 }
 
 .bottomimg .fontone {
     font-weight: bold;
     font-size: 33px;
+    
 }
 
 .picture {
@@ -130,6 +141,7 @@
     height: 60px;
     width: 60px;
     text-align: center;
+    margin: 0%;
 }
 
 .fontone {
@@ -139,6 +151,7 @@
 .fontone p {
     font-size: medium;
 }
+
 /* 
 .bottomimg {
     margin-top: 210px;
@@ -163,104 +176,441 @@
     width: auto;
     
 } */
-.thirdcontainer{
+.thirdcontainer {
     height: auto;
     width: 90%;
 }
-.row{
+
+.row {
     margin-left: 30%;
     margin-right: 30%;
-
+     /* margin-left: auto;
+    margin-right: auto; 
+     gap: 3px;  */
 }
 .two{
+    background-color: yellow;
+    /* background-image: url(nasatwo.webp); */
+    background-size: cover;
     height: 370px;
-    margin-bottom: 10px;
-    /* background-color: red; */
     background-size: cover;
- 
-}
-.two img{
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
 }
 .three{
     height: 370px;
-    margin-bottom: 10px;
-    /* background-color:yellow; */
-    background-size: cover;
-}
-.three img{
-    height: 100%;
-    width: 100%;
+    background-color: purple;
     background-size: cover;
 }
 .four{
-    height: 400px;
-    margin-bottom: 10px;
-    /* background-color:rgb(0, 102, 255); */
-}
-.four img{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+    height: 370px;
+    background-color: green;
 }
 .five{
     height: 180px;
+    color: pink;
+    background-color: blue;
     margin-bottom: 10px;
-    /* background-color:rgb(136, 255, 0); */
-}
-.five img{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
 }
 .six{
     height: 180px;
-    margin-bottom: 10px;
-    /* background-color:pink; */
+    background-color: aqua;
+   
 }
-.six img{
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-}
-.forthcontainer{
+
+
+ 
+
+
+
+.forthcontainer {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
     border: 2px solid red;
     margin-top: 0%;
-   
- 
+
+
 }
-.firstcontainer{
+
+.firstcontainer {
     display: flex;
     text-align: center;
     align-items: center;
     align-content: center;
 }
-.first img{
+
+.first img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
-.secound img{
+
+.secound img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
-.third img{
+
+.third img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
-.fourth img{
+
+.fourth img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
 }
+
+.read {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.readcontent img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.readcontent {
+    display: flex;
+    border: 2px solid black;
+    height: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+/* #readone {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+ */
+
+#readtwo {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+#readthree {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+#readfour {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+.parent{
+    display: flex;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+
+}
+ .child1   #eleven img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+ }
+ .child1 #twelwe {
+    font-size: 21px;
+    
+ }
+ .child1{
+    display: flex;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+ }
+ .child2   #thirteen img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+ }
+ .child2{
+    display: flex;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+ }
+ .child2 #foutheen{
+    font-size: 21px;
+ }
+ .child3   #fifteen img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+ }
+ .child3{
+    display: flex;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+ }
+ .child3 #sixteen{
+    font-size: 21px;
+ }
+ .child4   #seventeen img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+ }
+ .child4{
+    display: flex;
+    text-align: center;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+
+ }
+ .child4 #eighteen{
+    font-size: 21px;
+ }
+ .twelwe,.fourtheen,.sixteen,.eighteen{
+    text-align: center;
+ }
+ .raffay{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+     flex-wrap: wrap; 
+    /* flex-direction: column;  */
+ } 
+ .raffayone{
+    height: auto;
+    width: 400px;
+    margin-left: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 22px;
+ }
+ .raffaytwo{
+    background-color: grey;
+    width: 700px;
+    margin-left: 22px;    
+    margin-top: 22px;
+    margin-right: 22px;
+    
+ }
+ .raffaytwo img{
+   width: 100%;
+ }
+ .imageoftheday{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+ }
+ .imageofthedayone{
+    width: 400px;
+    text-align: center;
+    font-size: 22px;
+ }
+ .imageofthedaytwo{
+     /* margin-top: 55px;  */
+    background-color: rgb(199, 182, 182);
+    width: 600px;
+    margin-left: 22px;    
+    margin-top: 22px;
+    margin-right: 22px; 
+    border: 50px solid grey;
+     
+ }
+ .imageofthedaytwo img{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+ }
+ .startexploringcontainer{
+    background-image: url("https://www.nasa.gov/wp-content/uploads/2024/01/pia26112orig.jpg?resize=1536,1088");
+    
+ }
+ 
+     .startexploring h1{
+    font-size: 91px;
+    color: white;
+    font-weight: bold;
+    
+ }
+ .startexploring p{
+    font-size: 20px;
+    color: white;
+    height: auto;
+    
+ }
+ .planetcontainer{
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/01/pia26112orig.jpg?resize=1536,1088);
+    height: 600px;
+    
+ }
+ /* .planet{
+    margin-bottom: 44px;
+ } */
+.planeth1 h1{
+    color: #ffff;
+    font-weight: bolder;
+    margin-left: 113px;
+    font-size: 75px;
+    margin-top: 133px;
+    
+}
+.planet p{
+    color: white;
+    margin-left: 113px;
+    font-size: 22px;
+    margin-top: 134px;
+    font-weight: bold;
+}
+.Feathurenews{
+    width: 90%;
+    margin-top: 12px;
+    
+}
+/* .numberone{
+    height: 400px;
+} */
+.numbertwo{
+    background-color: greenyellow;
+    height: 370px;
+    
+}
+.numberthree{
+    background-color: red;
+    height: 370px;
+}
+.numberfour{
+    background-color: purple;
+    height: 400px;
+}
+.numberfive{
+    background-color: pink;
+    height: 190px;
+    margin-bottom: 10px;
+    
+}
+.numbersix{
+    background-color: yellow;
+    height: 190px;
+}
+.signup{
+    width: 100%;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=1536,1199);
+    height: 550px;
+    color: white;
+}
+.content{
+    width: 90%;
+    margin-top: 177px;
+
+   
+}
+.content h4{
+    width: 55%;
+    
+}
+.content h1{
+    font-weight: bolder;
+}
+.content button{
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .keepexploring{
+    width: 90%;
+  }
+  .keepcontainer{
+    display: flex;
+  }
+  .doubletwo{
+    background-image:url( https://www.nasa.gov/wp-content/uploads/2023/03/ksc-392c-5029_fr-036.jpg);
+    background-size: cover;
+
+  }
+  .doublethree{
+    background-color: #f64137;
+    height: 500px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg);
+  }
+  .doubleone{
+    height: 500px; 
+    background-color: grey;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/04/earth-at-night-north-america-east-coast.jpg?resize=1536,864);
+    background-size: cover;
+
+  }
+  .doublefour{
+    background-color: yellow;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1536,864);
+    background-size: cover;
+  }
+  .lastthing{
+    margin-top: 55px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+  .lastone img{
+   margin-left: 5px;
+   margin-right: auto;
+   margin-top: 20px;
+  }
+  .lastone p{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+
+  }
+  .lasttwo{
+    margin-top: 100px;
+  
+  }
+  .lastthree{
+    margin-top: 100px;
+  }
+  .lastfour{
+    margin-top: 100px;
+  }
+  .lastfive{
+    margin-top: 100px;
+  }
+  .hr{
+    border: 2px solid rgb(255, 0, 0);
+    background-color: black;
+  }
+  .afterline{
+    display: flex;
+    justify-content: space-around;
+  }
+  .afterline{
+    background-color: black;
+    color: white;
+    height: 200px;
+    
+  }
 
 @media only screen and (max-width:500px) {
 
@@ -281,19 +631,24 @@
         margin: 0%;
         padding: 0%;
         top: 580px;
-       
-
-       
     }
-    
+
 
     .text h1 {
         font-size: 22px;
+    }
+    .parent{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
 
     .firstimage img {
         height: 130vh;
+        background-size: cover;
+    }
+    .textcontainer {
+        background-image: url(https://www.nasa.gov/wp-content/uploads/2024/02/53510769734-8b85c25411-k.jpg?resize=1536,1024);
         background-size: cover;
     }
 
@@ -306,44 +661,177 @@
 
     .text button {
         width: 100%;
-        margin: 0%;
         font-size: 23px;
         font-weight: bolder;
+        background-color: white;
+        color: black;
+     
+        
 
 
     }
-    
+    .text button:hover {
+        width: 100%;
+        font-size: 23px;
+        font-weight: bolder;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        transition: color 0.3s;
+        
+    }
+
     .bottomimg {
         flex-direction: column;
         flex-wrap: wrap;
-   
+        display: flex;
+        margin: 0%;
+        
+
     }
+
     .bottomimg .fontone {
         font-weight: bold;
         font-size: 25px;
         text-align: center;
     }
-
-   
+    .secoundcontainer h1{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-weight: bold;
         
-    .two,.three,.four,.five,.six{
-        width:auto;
     }
-    .bottomimg .picture{
+
+
+
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        width: auto;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .bottomimg .picture {
         text-align: center;
         height: 50px;
         width: 50px;
     }
-    .firstcontainer{
+
+    .firstcontainer {
         flex-direction: column;
         flex-wrap: wrap;
-      
-    }
-    .fourthcontainer{
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    }
+        width: 100%;
 
     }
 
-    
+    .fourthcontainer {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .thirdcontainer {
+        height: auto;
+        width: 100%;
+
+
+    }
+
+    .secound {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .read {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #readone {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    #readtwo {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #readthree {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #readfour {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .imageofthedaytwo{
+        /* margin-top: 55px;  */
+       background-color: rgb(199, 182, 182);
+       width: 600px;
+       margin-left: 22px;    
+       margin-top: 22px;
+       margin-right: 22px; 
+       border: none;
+
+        
+    }
+    .imageofthedaytwo img{
+       width: 100%;
+       height: 500px;
+       text-align: center;
+    }
+    .planet h1{
+        margin: 0%;
+    }
+    .planet p{
+        margin: 0%;
+    }
+    .content h4{
+        width: 100%;
+        
+    }
+    .keepexploring{
+        display: none;
+    }
+    .lastthing{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .afterline{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  
+
+
+}
+@media only screen and (max-width:900px){
+    .bottomimg {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+}
