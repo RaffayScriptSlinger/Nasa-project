@@ -168,37 +168,33 @@
     align-items: center;
     width: 90%;
 }
-
-/* .container main{
-    height: 400px;
-    background-color: green;
-    margin-top: 10px;
-    width: auto;
-    
-} */
-.thirdcontainer {
+.boxcontainer{
     height: auto;
     width: 90%;
 }
-
-.row {
-    margin-left: 30%;
-    margin-right: 30%;
-     /* margin-left: auto;
-    margin-right: auto; 
-     gap: 3px;  */
+.boxnumberone{
+    background-image: url(nasatwo.webp);
+    background-size: cover;
+    height: auto;
 }
+
+/* 
+
+/* 
 .two{
     background-color: yellow;
-    /* background-image: url(nasatwo.webp); */
     background-size: cover;
+    background-size: cover;
+}
+.threeboxcontainer{
+    background-image: url(nasathree.webp);
     height: 370px;
+    width: auto;
     background-size: cover;
 }
 .three{
-    height: 370px;
+    
     background-color: purple;
-    background-size: cover;
 }
 .four{
     height: 370px;
@@ -214,8 +210,42 @@
     height: 180px;
     background-color: aqua;
    
+}  */
+/* .threeboxcontainer {
+    background-image: url(nasathree.webp);
+    height: 370px;
+    width: auto;
+    background-size: cover;
 }
 
+.twoboxcontainer {
+    background-image: url(nasatwo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px;
+}
+
+.two {
+    background-color: yellow;
+    /* Additional styling for the second container */
+
+
+/* .four {
+    height: 370px;
+    background-color: green;
+}
+
+.five {
+    height: 180px;
+    color: pink;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.six {
+    height: 180px;
+    background-color: aqua;
+} */ */
 
  
 
@@ -465,7 +495,7 @@
     font-weight: bolder;
     margin-left: 113px;
     font-size: 75px;
-    margin-top: 133px;
+    margin-top: auto;
     
 }
 .planet p{
@@ -478,33 +508,72 @@
 .Feathurenews{
     width: 90%;
     margin-top: 12px;
+    display: flex;
+    
     
 }
-/* .numberone{
-    height: 400px;
-} */
+.numberone{
+    height: auto;
+}
 .numbertwo{
-    background-color: greenyellow;
-    height: 370px;
+    height: 400px !important;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/02/football.jpg?resize=768,576);
+    background-size: cover;
+    border: 2px solid white;
+  justify-content: end;
+    display: flex;
+    flex-direction: column;
+}
+.numbertwo p{
+    font-size: 32px;
+    color: white;
     
 }
+.numbertwo span{
+    color: white;
+}
+
 .numberthree{
     background-color: red;
-    height: 370px;
+    height: 400px !important;
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2024/02/hubble-am1054-325-stsci-01hn3advebby90vcp5v9ewh6a8.png);
+    color: white;
+    background-size: cover;
+    border: 2px solid white;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+}
+.numberthree p{
+    font-size: 21px;
+    color: white;
 }
 .numberfour{
-    background-color: purple;
+    
     height: 400px;
+    border: 2px solid white;
+
 }
 .numberfive{
     background-color: pink;
-    height: 190px;
+    height: 198px;
     margin-bottom: 10px;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/02/1-pia26148-rf-optical-prototype.jpg?resize=768,576);
+    background-size: cover;
     
 }
+.numberfive p{
+    color: white;
+}
+
 .numbersix{
     background-color: yellow;
     height: 190px;
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2024/02/jnce-2023364-57c00022-v01-bill-dunford-1.jpg);
+    background-size: cover;
+}
+.numbersix p{
+    color: white;
 }
 .signup{
     width: 100%;
@@ -566,7 +635,6 @@
     background-size: cover;
   }
   .lastthing{
-    margin-top: 55px;
     height: auto;
     background-color: black;
     display: flex;
@@ -603,14 +671,16 @@
   }
   .afterline{
     display: flex;
-    justify-content: space-around;
-  }
-  .afterline{
-    background-color: black;
-    color: white;
-    height: 200px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    font-size: 24px;
+   
+   
     
   }
+  
 
 @media only screen and (max-width:500px) {
 
@@ -640,6 +710,7 @@
     .parent{
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        display: flex;
     }
 
 
@@ -816,16 +887,19 @@
     .lastthing{
         display: flex;
         flex-wrap: wrap;
-
     }
     .afterline{
         display: flex;
         flex-wrap: wrap;
     }
-
-  
-
-
+    .afterline{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        height: 60px;
+        font-size: 14px; 
+      }
 }
 @media only screen and (max-width:900px){
     .bottomimg {
@@ -834,4 +908,15 @@
         display: flex;
     }
 
+
 }
+@media only screen and (max-width:650px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .afterline{
+        display: flex;
+        justify-content: center;
+    }
+    }
